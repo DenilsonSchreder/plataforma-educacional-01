@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>ONLINE EDUCATIONE</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="cabecalho">
+            <h2 class="logo">ONLINE EDUCATION</h2>
+
+            <div class="cabecalho__pesquisar">
+
+                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                <button class="pesquisar__botao">
+
+            </div>
+
+            <div class="cabecalho__icones">
+                <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <ul class="videos__container" alt="videos-education" data-lista>
+        <li class="videos__item">
+           <iframe width="100%" height="72%" src="https://www.youtube.com/embed/-mKfKiQAPjM" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="descricao-video">
+                <h3>O QUE ESPERAR DA PROGRAMAÇÃO EM 2022?</h3>
+                <p>127.259 visualizações  23 de nov. de 2021 </p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+           <iframe width="100%" height="72%" src="https://www.youtube.com/embed/u_jJkkxeE30" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="descricao-video">
+                <h3> METAVERSO Na Visão de 2 Programadores</h3>
+                <p>127.259 visualizações  23 de nov. de 2021</p>
+            </div>
+        </li>
+
+    </ul>
+
+   <script src="/js/mostrarVideos.js"  type="module"></script>
+
+</body>
+
+</html>
